@@ -1,1 +1,0 @@
-# ktos_napewno
