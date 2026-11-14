@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: rgb(31, 41, 55);
+	min-height: 100vh;
+	/* TODO: dodaj gradient liniowy jako tło strony */
+	background: linear-gradient(130deg, rgb(59, 59, 145),rgb(60, 60, 228));
+}
+
+header {
+	padding: 24px 32px;
+	color: white;
+	/* TODO: dodaj półprzezroczyste tło i cień tekstu dla nagłówka */
+	background-color: rgba(0, 0, 255, 0.5);
+	text-shadow: 0px 0px 5px black;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 16px;
+	margin-top: 12px;
+	padding: 15px;
+	font-size: large;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+#intro {
+	padding: 32px;
+	color: white;
+	text-align: center;
+}
+
+/* TODO: dodaj style siatki .ranking-grid z flex-wrap, gap i wyśrodkowaniem kart */
+#ranking-grid{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 5%
+}
+
+
+/* TODO: dodaj style pojedynczej karty .phone-card oraz obrazka i odznaki z oceną */
+.phone-card{
+	background-color: whitesmoke;
+	border-radius: 10px;
+	width: 25%;
+	height: auto;
+	box-shadow: 0px 0px 5px black;
+	padding: 1%;
+	text-align: center;
+}
+.phone-card img{
+	max-width: 100%;
+	max-height: 1000px;
+}
+.ocena{
+	background-color: rgb(6, 204, 6);
+	color: white;
+	box-sizing: content-box;
+	border-radius: 12px;
+	text-align: center;
+	padding: 1%;
+	text-align: center;
+	position: relative;
+}
+
+
+footer {
+	padding: 24px;
+	text-align: center;
+	color: white;
+	background: rgba(0, 0, 0, 0.4);
+}
